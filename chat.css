@@ -1,0 +1,501 @@
+/* CONFIG GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f7f7f7;
+}
+
+/* -------- HEADER -------- */
+.header {
+    width: 100%;
+    background: #313235;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(81, 81, 81);
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+/* -------- HERO -------- */
+.hero {
+    padding: 20px;
+    padding-bottom: 150px;
+    background: #313235;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    position: absolute;
+}
+
+.titulo::after {
+    content: "Conheça histórias, projetos e oportunidades da nossa comunidade escolar.";
+    padding-left: 20px;
+    font-size: 17px;
+    color: #777;
+}
+
+.hero-left {
+    max-width: 40%;
+    padding-left: 100px;
+}
+
+.hero-left h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+
+/* -------- HERO BOTTOM NOVO -------- */
+.hero-bottom {
+    background: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero-bottom-content {
+    text-align: center;
+}
+
+.hero-bottom h1 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.hero-bottom p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.btn-ler {
+    text-decoration: none;
+    color: #062a75;
+    font-weight: 600;
+}
+
+
+/* -------- NOTÍCIAS -------- */
+.noticias {
+    padding-top: 150px;
+}
+
+.noticias h2 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* -------- SOBRE -------- */
+.sobre {
+    padding: 100px 0;
+}
+
+.sobre-container {
+    width: 80%;
+    margin: auto;
+}
+
+.sobre h2 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.sobre-grid {
+    display: flex;
+    gap: 40px;
+}
+
+
+.sobre-item h3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sobre-item p {
+    color: #555;
+}
+
+/* -------- DESTAQUE -------- */
+.destaque {
+    padding: 100px 0;
+    background-color: #313235;
+}
+
+.destaque-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.destaque-esquerda {
+    width: 50%;
+}
+
+.data-post {
+    font-size: 13px;
+    color: #888;
+}
+
+.destaque-titulo {
+    font-family: 'Montserrat';
+    font-size: 34px;
+    margin: 15px 0;
+    color: white;
+}
+
+.destaque-desc {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.destaque-imagem img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.destaque a{
+    color: white;
+}
+
+/* -------- POSTS -------- */
+.posts {
+    padding: 80px 0;
+}
+
+.posts h2 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.posts-grid {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.post {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.post img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.post h3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+/* -------- PODCAST -------- */
+.podcast {
+    padding: 100px 0;
+    background: #313235;
+    color: #fff;
+}
+
+.podcast-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.podcast-esquerda h2 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.btn-podcast {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.podcast-lista .episodio {
+    background: #fff;
+    color: #313235;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* ================================
+   RESPONSIVIDADE
+================================ */
+
+/* ------- TABLETS GRANDES ------- */
+@media (max-width: 1200px) {
+    .hero-left {
+        padding-left: 40px;
+    }
+
+    .hero-left h1 {
+        font-size: 55px;
+    }
+
+    .destaque-container,
+    .podcast-container {
+        width: 90%;
+    }
+}
+
+/* ------- TABLETS ------- */
+@media (max-width: 960px) {
+
+    /* Header */
+    .header {
+        padding: 20px 30px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    /* Hero */
+    .hero-left {
+        max-width: 60%;
+        padding-left: 40px;
+    }
+
+    .hero-left h1 {
+        font-size: 50px;
+    }
+
+    /* Notícias */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    /* Sobre */
+    .sobre-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Destaque */
+    .destaque-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .destaque-esquerda {
+        width: 100%;
+    }
+
+    .destaque-imagem {
+        width: 100%;
+    }
+
+    /* Posts */
+    .post {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .post img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Podcast */
+    .podcast-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .podcast-lista {
+        width: 100%;
+    }
+
+}
+
+/* ------- CELULARES MÉDIOS ------- */
+@media (max-width: 768px) {
+
+    /* Header */
+    .menu {
+        display: none; /* opcional: vira menu mobile depois */
+    }
+
+    /* Hero */
+    .hero {
+        padding-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .hero-left {
+        max-width: 100%;
+        padding-left: 20px;
+    }
+
+    .hero-left h1 {
+        font-size: 40px;
+    }
+
+    .titulo::after {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    /* Hero bottom */
+    .hero-bottom h1 {
+        font-size: 24px;
+    }
+
+    /* Cards */
+    .card {
+        width: 90%;
+    }
+
+    /* Posts */
+    .posts-grid {
+        width: 90%;
+    }
+
+    .post img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ------- CELULARES PEQUENOS ------- */
+@media (max-width: 480px) {
+
+    /* Header */
+    .logo {
+        font-size: 18px;
+    }
+
+    /* Hero */
+    .hero-left h1 {
+        font-size: 32px;
+    }
+
+    .titulo::after {
+        padding-left: 0;
+        display: block;
+        margin-top: 10px;
+    }
+
+    /* Destaque */
+    .destaque-titulo {
+        font-size: 26px;
+    }
+
+    /* Posts */
+    .post {
+        padding: 15px;
+    }
+
+    /* Podcast */
+    .podcast-esquerda h2 {
+        font-size: 26px;
+    }
+
+    .episodio {
+        font-size: 14px;
+    }
+
+    .play {
+        padding: 5px 12px;
+    }
+}
