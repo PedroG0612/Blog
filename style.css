@@ -1,133 +1,134 @@
-/* CONFIG GERAL */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    /* CONFIG GERAL */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: #f7f7f7;
-}
+    body {
+        font-family: 'Inter', sans-serif;
+        background: #f7f7f7;
+    }
 
-/* -------- HEADER -------- */
-.header {
-    width: 100%;
-    background: #313235;
-    padding: 20px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    /* -------- HEADER -------- */
+    .header {
+        width: 100%;
+        background: #313235;
+        padding: 20px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.logo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 800;
-    color: rgb(81, 81, 81);
-}
+    .logo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        color: rgb(81, 81, 81);
+    }
 
-.menu {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
+    .menu {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
 
-.menu a {
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    text-decoration: none;
-    font-weight: 400;
-}
-
-
-/* -------- HERO -------- */
-.hero {
-    padding: 80px 60px;
-    background: #313235;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-}
-
-.tituloPrincipal::after{
-    content: "Conheça histórias, projetos e oportunidades da nossa comunidade escolar.";
-    padding-left: 100px;
-    font-size: 10px;
-    color: #555;
-    white-space: pre;
-    top: 90px;
-    
-}
-
-.hero-left {
-    max-width: 40%;
-    padding-left: 100px;
-}
-
-.hero-left h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.hero-left p {
-    font-size: 18px;
-    margin-bottom: 20px;    
-}
+    .menu a {
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        text-decoration: none;
+        font-weight: 400;
+    }
 
 
-.hero-right img {
-    width: 430px;
-    border-radius: 20px;
-    object-fit: cover;
-}
+    /* -------- HERO -------- */
+    .hero {
+        padding: 20px;
+        padding-bottom: 150px;
+        background: #313235;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    .titulo{
+        position: absolute;
+    }
 
-/* -------- NOTÍCIAS -------- */
-.noticias {
-    padding-top: 150px;
-}
+    .titulo::after{
+        content: "Conheça histórias, projetos e oportunidades da nossa comunidade escolar.";
+        padding-left: 20px;
+        font-size: 17px;
+        color: #777;
 
-.noticias h2 {
-    font-family: 'Montserrat';
-    font-size: 32px;
-    margin-bottom: 30px;
-}
+    }
 
-.cards {
-    display: flex;
-    gap: 30px;
-}
+    .hero-left {
+        max-width: 40%;
+        padding-left: 100px;
+    }
 
-.card {
-    background: #fff;
-    padding: 15px;
-    border-radius: 12px;
-    width: 30%;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
+    .hero-left h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 70px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
 
-.card img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
+    .hero-left p {
+        font-size: 18px;
+        margin-bottom: 20px;    
+    }
 
-.card h3 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
 
-.card p {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 15px;
-}
+    .hero-bottom{
+        background-color: white;
 
-.link {
-    color: #062a75;
-    font-weight: 500;
-    text-decoration: none;
-}
+    }
+
+    /* -------- NOTÍCIAS -------- */
+    .noticias {
+        padding-top: 150px;
+    }
+
+    .noticias h2 {
+        font-family: 'Montserrat';
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .cards {
+        display: flex;
+        gap: 30px;
+    }
+
+    .card {
+        background: #fff;
+        padding: 15px;
+        border-radius: 12px;
+        width: 30%;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .link {
+        color: #062a75;
+        font-weight: 500;
+        text-decoration: none;
+    }
