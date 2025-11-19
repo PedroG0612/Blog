@@ -311,6 +311,48 @@ body {
 }
 
 
+
+/* Input de comentário */
+/* Input de comentário */
+/* Input de comentário */
+#comentario-input {
+    width: 35%;
+    height: 30%;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 8px;
+    outline: none;
+}
+
+#comentario-input:focus {
+    border-color: #555;
+}
+
+/* Botão de comentar */
+#comentario-btn {
+    padding: 9px 12px;
+    height: 35%;
+    margin-top: 6px;
+    background: #777;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+#comentario-btn:hover {
+    background: #5c5c5c;
+}
+
+
+
+
+
 /* ================================
    RESPONSIVIDADE
 ================================ */

@@ -8,7 +8,7 @@
     <!-- Fontes: Montserrat e Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chat.css">
 </head>
 <body>
 
@@ -28,19 +28,19 @@
     <!-- HERO -->
     <section class="hero">
         <div class="hero-left">
-            <h1 class="tituloPrincipal">SENAI <br>   <span class="titulo"> MORVAN </span> <br> FIGUEIREDO</h1>
+            <h1 class="tituloPrincipal">SENAI <br> <span class="titulo"> MORVAN </span> <br> FIGUEIREDO</h1>
         </div>
-        
-           
         <div></div>
-
-       
     </section>
 
- <div class="hero-bottom">
-            <h1 class="conteudo">Caixa de água cai</h1>
+    <!-- HERO BOTTOM (NOVO) -->
+    <div class="hero-bottom">
+        <div class="hero-bottom-content">
+            <h1>Caixa de água cai</h1>
+            <p>Instalação antiga gera risco e manutenção emergencial é realizada no campus.</p>
+            <a href="#" class="btn-ler">Ler matéria completa →</a>
         </div>
-
+    </div>
 
     <!-- ÚLTIMAS NOTÍCIAS -->
     <section class="noticias">
@@ -69,6 +69,131 @@
             </div>
         </div>
     </section>
+
+    <!-- SOBRE O SENAI (CONTINUAÇÃO DO SITE) -->
+    <section class="sobre">
+        <div class="sobre-container">
+            <h2>Sobre o SENAI Morvan Figueiredo</h2>
+            <p>
+                Com tradição na formação profissional, o SENAI Morvan Figueiredo capacita milhares de alunos todos os anos para o mercado de trabalho nas mais diversas áreas industriais.
+            </p>
+
+            <div class="sobre-grid">
+                <div class="sobre-item">
+                    <h3>+50 cursos técnicos</h3>
+                    <p>Do básico ao avançado, sempre atualizados com o mercado.</p>
+                </div>
+
+                <div class="sobre-item">
+                    <h3>Laboratórios modernos</h3>
+                    <p>Infraestrutura de ponta para experiências reais.</p>
+                </div>
+
+                <div class="sobre-item">
+                    <h3>Projetos inovadores</h3>
+                    <p>Alunos premiados em iniciativas de tecnologia e indústria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTAQUE - ESTILO BLOG -->
+<section class="destaque">
+    <div class="destaque-container">
+
+        <div class="destaque-esquerda">
+            <span class="data-post">11 Novembro 2024</span>
+            <h2 class="destaque-titulo">A Importância da Segurança Industrial nas Oficinas</h2>
+            <p class="destaque-desc">
+                Em ambientes industriais e educacionais, medidas de segurança são essenciais para garantir a integridade dos alunos e colaboradores. 
+                Conheça as práticas adotadas no SENAI Morvan Figueiredo.
+            </p>
+            <a href="#" class="btn-ler mais">Ler matéria completa →</a>
+        </div>
+
+        <div class="destaque-imagem">
+            <img src="https://i.imgur.com/3Z1XWgP.jpeg" alt="">
+        </div>
+
+    </div>
+</section>
+
+
+<!-- POSTS RECENTES (ESTILO FEED) -->
+<section class="posts">
+    <h2>Posts recentes</h2>
+
+    <div class="posts-grid">
+
+        <div class="post">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <div>
+                <h3>Abertura da nova sala de prototipagem</h3>
+                <p>Com impressoras 3D e ferramentas digitais, a nova sala promete aumentar a criatividade dos alunos.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRMJNa28to-M1FMSkj0_g5B28gYKftFuwuA&s" alt="">
+            <div>
+                <h3>Semana da Indústria</h3>
+                <p>Palestras, workshops e visitas técnicas marcam o evento mais aguardado do semestre.</p>
+            </div>
+            <input id="comentario-input" type="text">
+            <button id="comentario-btn">Comentar</button>
+        </div>
+
+        <div class="post">
+            <img src="https://folhaextra.com/images/noticias/35902/4e2d5a110cf5f05e2e19c9909e3a01f7.webp" alt="">
+            <div>
+                <h3>O SENAI investe em novas tecnologias tecnologias</h3>
+                <p>Para uma melhor experiência o SENAI Morvan Figueiredo investe em tecnologias como computadores</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PODCAST -->
+<section class="podcast">
+    <div class="podcast-container">
+
+        <div class="podcast-esquerda">
+            <h2>Você já ouviu nosso podcast?</h2>
+            <p>Conversas sobre tecnologia, educação e carreiras industriais.</p>
+            <a href="#" class="btn-podcast">Ouvir agora →</a>
+        </div>
+
+        <div class="podcast-lista">
+            <div class="episodio">
+                <span>#01 Segurança nas Oficinas</span>
+                <button class="play">▶</button>
+            </div>
+
+            <div class="episodio">
+                <span>#02 O futuro da automação</span>
+                <button class="play">▶</button>
+            </div>
+
+            <div class="episodio">
+                <span>#03 Energia limpa na indústria</span>
+                <button class="play">▶</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+         <h1>Preencha as informações</h1>
+   <h2>Título</h2>
+<input id="titulo" type="text" >
+<h2>Link da imagem</h2>
+<input id="imagem" type="text">
+<h2>descriçao</h2>
+<input id="descricao" type="text">
+<button id="add">Adicionar</button>
+<script src="script.js"></script>
 
 </body>
 </html>
