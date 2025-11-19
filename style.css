@@ -13,18 +13,18 @@ body {
 /* -------- HEADER -------- */
 .header {
     width: 100%;
-    background: #ffffff;
+    background: #313235;
     padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e2e2e2;
 }
 
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 800;
+    color: rgb(81, 81, 81);
 }
 
 .menu {
@@ -34,56 +34,49 @@ body {
 }
 
 .menu a {
-    color: #222;
-    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
     text-decoration: none;
     font-weight: 400;
 }
 
-.btn-header {
-    background: #1a6dff;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 15px;
-    cursor: pointer;
-}
 
 /* -------- HERO -------- */
 .hero {
+    padding: 80px 60px;
+    background: #313235;
+    color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 80px 60px;
-    background: #062a75;
-    color: #fff;
+}
+
+.tituloPrincipal::after{
+    content: "Conheça histórias, projetos e oportunidades da nossa comunidade escolar.";
+    padding-left: 100px;
+    font-size: 10px;
+    color: #555;
+    white-space: pre;
+    top: 100px;
+    
 }
 
 .hero-left {
     max-width: 40%;
+    padding-left: 100px;
 }
 
 .hero-left h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
 .hero-left p {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;    
 }
 
-.btn-primary {
-    background: #1a6dff;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-}
 
 .hero-right img {
     width: 430px;
@@ -93,7 +86,7 @@ body {
 
 /* -------- NOTÍCIAS -------- */
 .noticias {
-    padding: 60px;
+    padding-top: 150px;
 }
 
 .noticias h2 {
